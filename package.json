@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev",
-    "start": "ts-node",
+    "dev": "ts-node-dev src/index.ts",
+    "start": "ts-node src/index.ts",
     "test": "vitest",
     "test:watch": "vitest --watch",
     "test:coverage": "vitest --coverage"
